@@ -2,7 +2,7 @@
 very simple crap to check nr of processes running over snmp
 To be used with icinga2 / icinga or nagios or .. to make coffee
 
-
+```
 usage: snmp_proc_check2.py [-h] [-w--warning WARNING] [-c--critical CRITICAL]
                            -H--host HOST [-C--community COMMUNITY] -n--name
                            NAME
@@ -24,4 +24,4 @@ optional arguments:
   -C--community COMMUNITY
                         host or ip to query
   -n--name NAME         name of process
-
+```
